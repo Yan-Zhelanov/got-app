@@ -29,10 +29,12 @@
 .not-found-404 {
   width: 60%;
   margin: 5px auto;
-  border: 2px solid #f00000;
-  border-radius: 25px;
+  border: 2px solid #dc3545;
+  border-radius: 15px;
+  background: #00000058;
   
   p {
+    padding: 5px 0 0;
     color: #fff;
     text-align: center;
     font-size: 30pt;

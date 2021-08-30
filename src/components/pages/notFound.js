@@ -9,7 +9,7 @@ export default class NotFound extends React.Component {
     return (
       <>
         <div className="not-found-404"><p>404 — Not Found!</p></div>
-        <button className="center-button"><Link to="/">Вернуться на главную?</Link></button>
+        <button className="center-button"><Link to="/">Go back to the main page?</Link></button>
       </>
     );
   }

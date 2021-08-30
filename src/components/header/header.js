@@ -22,15 +22,23 @@ const HeaderLinks = styled.ul`
   align-items: center;
   color: #fff;
   list-style-type: none;
+  background: #437086a3;
+  border-radius: 10px;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    background: none;
+  }
+
   li {
-    margin-right: 20px;
+    margin: 0 20px;
     font-size: 18px;
     padding: 10px;
     transition: all 0.15s ease-in-out;
     
     &:hover {
       border-radius: 10px;
-      background: #000;
+      background: #437086a3;
       color: #ff00ff;
     }
   }

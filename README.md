@@ -6,7 +6,7 @@
 
 
 ## Стек технологий
-JavaScript, React 16.13, React Router Dom, Reactstrap, Styled Components, Bootstrap 4, CSS и SCSS.
+JavaScript, React 16.13, React Router Dom, Reactstrap, Styled Components, Bootstrap 4, SCSS и CSS.
 
 ## Установка
 Запустите установку зависимостей и дождитесь окончания:

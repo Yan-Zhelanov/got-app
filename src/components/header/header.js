@@ -25,6 +25,14 @@ const HeaderLinks = styled.ul`
   li {
     margin-right: 20px;
     font-size: 18px;
+    padding: 10px;
+    transition: all 0.15s ease-in-out;
+    
+    &:hover {
+      border-radius: 10px;
+      background: #000;
+      color: #ff00ff;
+    }
   }
 `;
 

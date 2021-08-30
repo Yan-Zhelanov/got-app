@@ -11,8 +11,9 @@
   background: #ffffff99;
   border-radius: 25px;
   padding: 10px;
+  padding-bottom: 0px;
   margin: 20px;
-  transition: all 0.20s ease-in-out;
+  transition: all 0.30s ease-in-out;
 
   .main-header {
     text-align: center;
@@ -26,15 +27,19 @@
     text-align: center;
   }
 
-  &:hover {
-    padding-bottom: 50px;
-  }
-  &::before {
-    content: attr(additionaldata);
+  .additional-text {
+    visibility: hidden;
+    color: #000;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
   }
 
-  &::after {
-    content: attr(kek);
+  &:hover {
+    .additional-text {
+      margin: 5px 10px 10px;
+      padding: 5px 10px 20px;
+      visibility: visible;
+    }
   }
 }
 
